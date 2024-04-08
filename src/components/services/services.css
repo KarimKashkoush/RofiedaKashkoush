@@ -1,0 +1,111 @@
+.services-container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+    gap: 30px;
+}
+
+.services-card {
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.services-card:hover {
+    transform: translateY(-10px);
+}
+
+.services-icon {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.services-card:nth-child(1) {
+    background-color: rgb(108, 108, 229);
+    box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+}
+
+.services-card:nth-child(2) {
+    background-color: rgb(249, 215, 76);
+    box-shadow: 0px 5px 20px 0px rgb(76, 76, 76, 0.5);
+}
+
+.services-card:nth-child(3) {
+    background-color: rgb(249, 123, 139);
+    box-shadow: 0px 5px 20px 0px rgb(249, 123, 139, 0.5);
+}
+
+.services-card:nth-child(4) {
+    background-color: rgb(249, 123, 139);
+    box-shadow: 0px 5px 20px 0px rgb(249, 123, 139, 0.5);
+}
+
+.services-card:nth-child(5) {
+    background-color: rgb(68, 215, 182);
+    box-shadow: 0px 5px 20px 0px rgb(76, 76, 76, 0.5);
+}
+
+.services-card:nth-child(6) {
+    background-color: rgb(108, 108, 229);
+    box-shadow: 0px 5px 20px 0px rgba(68, 215, 182, 0.5);
+}
+
+
+
+.services-img {
+    margin-bottom: 1.25rem;
+}
+
+.services-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.services-description {
+    text-align: left;
+    color: #f8f9fa;
+}
+
+.services-description li {
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.services-description li::before {
+    content: "-";
+    position: absolute;
+    left: -10px;
+    top: 0;
+}
+
+.services-card:nth-child(2) .services-title,
+.services-card:nth-child(5) .services-title,
+.services-card:nth-child(2) .services-icon,
+.services-card:nth-child(5) .services-icon {
+    color: var(--title-color);
+}
+
+.services-card:nth-child(2) .services-description,
+.services-card:nth-child(5) .services-description {
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 310px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
