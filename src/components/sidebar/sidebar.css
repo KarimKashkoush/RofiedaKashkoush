@@ -59,7 +59,7 @@ aside .open {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     display: none;
