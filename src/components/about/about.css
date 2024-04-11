@@ -16,19 +16,6 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
     align-items: flex-start;
-    position: relative;
-}
-
-.about-data::before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 40px solid var(--container-color);
-    position: absolute;
-    left: -1rem;
-    top: 20%;
 }
 
 .about-description {
@@ -129,12 +116,6 @@
     .about-box {
         flex-direction: column;
         row-gap: 0.5rem;
-    }
-
-    .about-data::before {
-        border-top: transparent;
-        border-bottom: 0px solid transparent;
-        border-right: 0px solid transparent;
     }
 }
 

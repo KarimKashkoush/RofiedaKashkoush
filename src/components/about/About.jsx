@@ -1,6 +1,8 @@
 import './about.css'
 // @ts-ignore
-import AboutImg from '../../assets/avatar-2.svg'
+import about from '../../../public/animation/about.json'
+// @ts-ignore
+import Lottie from 'lottie-react'
 import AboutBox from './AboutBox'
 
 function About() {
@@ -11,7 +13,7 @@ function About() {
             </h1>
 
             <div className="about-container grid">
-                <img src={AboutImg} className='about-img' />
+                <Lottie animationData={about}/>
                 <div className="about-data grid">
                     <div className="about-info">
                         <p className="about-description">
