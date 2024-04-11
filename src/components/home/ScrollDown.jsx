@@ -6,7 +6,7 @@ function ScrollDown() {
                 <span className="home-scroll-name">Scroll Down</span>
                 <span className="mouse">
                     <span className="wheel">
-                    <i className="fa-solid fa-angles-down"></i>
+                        <i className="fa-solid fa-angles-up"></i>
                     </span>
                 </span>
             </a>

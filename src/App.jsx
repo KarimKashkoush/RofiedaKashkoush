@@ -5,7 +5,7 @@ import Services from "./components/services/Services"
 import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
-
+import ScrollTop from "./components/home/ScrollTop"
 function App() {
 
   return (
@@ -18,6 +18,7 @@ function App() {
         <Portfolio />
         <Contact />
         <Footer />
+        <ScrollTop />
       </main>
     </>
   )
