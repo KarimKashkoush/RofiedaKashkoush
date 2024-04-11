@@ -85,13 +85,10 @@
 .services-card:nth-child(2) .services-title,
 .services-card:nth-child(5) .services-title,
 .services-card:nth-child(2) .services-icon,
-.services-card:nth-child(5) .services-icon {
-    color: var(--title-color);
-}
-
+.services-card:nth-child(5) .services-icon,
 .services-card:nth-child(2) .services-description,
 .services-card:nth-child(5) .services-description {
-    color: var(--text-color);
+    color: var(--text-dark-color);
 }
 
 @media screen and (max-width: 1024px) {

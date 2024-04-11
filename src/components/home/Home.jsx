@@ -1,16 +1,17 @@
 import './home.css'
 // @ts-ignore
-import me from '../../assets/avatar-1.svg'
 import HeaderSocial from './HeaderSocial'
 import ScrollDown from './ScrollDown'
+import me from '../../../public/animation/personal-photo.json'
 // @ts-ignore
 import Shapes from './Shapes'
+import Lottie from 'lottie-react'
 function Home() {
     return (
         <section className="home container" id='home'>
             <Shapes />
             <div className="intro">
-                <img src={me} className='home-img' />
+                <Lottie animationData={me} className='home-img'/>
                 <h1 className="home-name">Rofieda Mohamed Kashkoush</h1>
                 <span className="home-education">i&apos;m a architecture engineer</span>
 

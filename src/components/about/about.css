@@ -33,9 +33,8 @@
 
 .about-description {
     margin-bottom: 1rem;
+    color: var(--text-dark-color);
 }
-
-
 
 .about .btn a {
     color: #fff;
@@ -58,6 +57,7 @@
 
 .skills-number {
     line-height: 1.2;
+    color: var(--text-dark-color);
 }
 
 .skills-bar,
@@ -129,7 +129,12 @@
     .about-box {
         flex-direction: column;
         row-gap: 0.5rem;
+    }
 
+    .about-data::before {
+        border-top: transparent;
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
     }
 }
 
@@ -157,7 +162,7 @@
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
     .about-container {
         grid-template-columns: 1fr;
     }
