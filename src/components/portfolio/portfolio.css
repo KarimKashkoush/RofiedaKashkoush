@@ -118,3 +118,10 @@
         row-gap: 0.25rem;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .work-container {
+        grid-template-columns: 1fr;
+    }
+
+}

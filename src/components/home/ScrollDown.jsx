@@ -2,7 +2,7 @@
 function ScrollDown() {
     return (
         <div className="scroll-down">
-            <a href="" className="mouse-wrapper">
+            <a href="#about" className="mouse-wrapper">
                 <span className="home-scroll-name">Scroll Down</span>
                 <span className="mouse">
                     <span className="wheel">

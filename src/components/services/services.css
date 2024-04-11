@@ -106,3 +106,9 @@
         row-gap: 1.875rem;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}

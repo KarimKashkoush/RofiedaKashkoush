@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    padding-block: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+footer a {
+    color: var(--first-color);
+    border-bottom: 1px solid var(--title-color);
+}
