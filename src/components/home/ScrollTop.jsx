@@ -31,7 +31,7 @@ function ScrollTop() {
         <>
             {showButton && (
                 <section className="scroll-top" onClick={() => { scrollTop() }}>
-                    <i className="fa-solid fa-arrow-turn-up"></i>
+                    <i className="fa-solid fa-angles-up"></i>
                 </section>
             )}
         </>
