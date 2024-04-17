@@ -28,7 +28,7 @@ function About() {
                         <div className="skills-data">
                             <div className="skills-title">
                                 <h3 className="skills-name">AutoCAD</h3>
-                                <span className="skills-number">90%</span>
+                                <span className="skills-number">85%</span>
                             </div>
                             <div className="skills-bar">
                                 <span className="skills-percentage AutoCAD"></span>
@@ -48,7 +48,7 @@ function About() {
                         <div className="skills-data">
                             <div className="skills-title">
                                 <h3 className="skills-name">Revet</h3>
-                                <span className="skills-number">90%</span>
+                                <span className="skills-number">80%</span>
                             </div>
                             <div className="skills-bar">
                                 <span className="skills-percentage Revet"></span>
