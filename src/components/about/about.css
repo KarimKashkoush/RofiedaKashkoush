@@ -89,7 +89,8 @@
     margin: auto;
 }
 
-.about-icon {
+.about-icon,
+.about-box i {
     font-size: var(--h1-font-size);
     color: #dedeea;
 }

@@ -12,7 +12,7 @@ function AboutBox() {
             </div>
 
             <div className="about-box">
-                <i className="about-icon icon-fire"></i>
+                <i className="fa-solid fa-briefcase"></i>
 
                 <div>
                     <h3 className="about-title">20</h3>
@@ -21,7 +21,7 @@ function AboutBox() {
             </div>
 
             <div className="about-box">
-                <i className="about-icon icon-fire"></i>
+                <i className="fa-solid fa-headset"></i>
 
                 <div>
                     <h3 className="about-title">Online 24/7</h3>
