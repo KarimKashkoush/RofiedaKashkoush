@@ -27,7 +27,7 @@ function App() {
       window.onload = () => {
         setIsLoading(false);
       };
-    }, 3000);
+    }, 6000);
 
 
     return () => clearTimeout(timer);
