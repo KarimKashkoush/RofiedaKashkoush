@@ -18,7 +18,7 @@ function Home() {
                 <HeaderSocial />
 
                 <button className="btn">
-                    <a href="" id="content">hire me</a>
+                    <a href="https://drive.google.com/file/d/1iNHNqLL-38M7xWSeMiaO1fOCVSpRfah6/view?usp=sharing" target='_blank' id="content">hire me</a>
                 </button>
 
                 <ScrollDown />

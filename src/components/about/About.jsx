@@ -20,7 +20,7 @@ function About() {
                             I am an architect and experienced architect with a passion for creating sustainable and functional designs. I have more than two years of experience in the field, and I have worked on a variety of projects.
                         </p>
                         <button className="btn">
-                            <a href="">download cv</a>
+                            <a href="https://drive.google.com/file/d/1iNHNqLL-38M7xWSeMiaO1fOCVSpRfah6/view?usp=sharing" target='_blank'>download cv</a>
                         </button>
                     </div>
 
