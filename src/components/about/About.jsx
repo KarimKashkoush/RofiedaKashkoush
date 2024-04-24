@@ -37,21 +37,51 @@ function About() {
 
                         <div className="skills-data">
                             <div className="skills-title">
-                                <h3 className="skills-name">3dMaxs</h3>
+                                <h3 className="skills-name">Revit</h3>
                                 <span className="skills-number">90%</span>
                             </div>
                             <div className="skills-bar">
-                                <span className="skills-percentage dMaxs"></span>
+                                <span className="skills-percentage Revit"></span>
                             </div>
                         </div>
 
                         <div className="skills-data">
                             <div className="skills-title">
-                                <h3 className="skills-name">Revet</h3>
+                                <h3 className="skills-name">Adobe Photoshop</h3>
                                 <span className="skills-number">80%</span>
                             </div>
                             <div className="skills-bar">
-                                <span className="skills-percentage Revet"></span>
+                                <span className="skills-percentage Photoshop"></span>
+                            </div>
+                        </div>
+
+                        <div className="skills-data">
+                            <div className="skills-title">
+                                <h3 className="skills-name">V-Ray</h3>
+                                <span className="skills-number">95%</span>
+                            </div>
+                            <div className="skills-bar">
+                                <span className="skills-percentage V-Ray"></span>
+                            </div>
+                        </div>
+
+                        <div className="skills-data">
+                            <div className="skills-title">
+                                <h3 className="skills-name">Corona</h3>
+                                <span className="skills-number">80%</span>
+                            </div>
+                            <div className="skills-bar">
+                                <span className="skills-percentage Corona"></span>
+                            </div>
+                        </div>
+
+                        <div className="skills-data">
+                            <div className="skills-title">
+                                <h3 className="skills-name">3D Max</h3>
+                                <span className="skills-number">90%</span>
+                            </div>
+                            <div className="skills-bar">
+                                <span className="skills-percentage D-Max"></span>
                             </div>
                         </div>
                     </div>
