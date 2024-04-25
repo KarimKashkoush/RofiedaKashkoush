@@ -46,9 +46,9 @@ function Portfolio() {
 
                             <span className="work-category">{category}</span>
                             <h3 className='work-title'>{title}</h3>
-                            <a href="" className="work-button">
+                            {/* <a href="" className="work-button">
                                 <i className="icon-link work-button-icon"></i>
-                            </a>
+                            </a> */}
                         </div>
                     )
                 })}
